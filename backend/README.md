@@ -4,9 +4,9 @@ The Parts Unlimited backend is Node web app written with [Express](https://expre
 
 ## Getting started
 
-To start the app use: `yarn dev` from the backend directory.
+To start the app use: `npm dev` from the backend directory.
 
-Make sure your DB is up and running.
+Make sure your DB is up and running. Define MONGODB_URI in your .env file
 
 ## Dependencies
 
