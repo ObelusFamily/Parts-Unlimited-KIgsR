@@ -26,3 +26,9 @@ Make sure your DB is up and running. Define MONGODB_URI in your .env file
 ## Error Handling
 
 In `routes/api/index.js`, we define a error-handling middleware for handling Mongoose's `ValidationError`. This middleware will respond with a 422 status code and format the response to have [error messages the clients can understand](https://github.com/gothinkster/realworld/blob/master/API.md#errors-and-status-codes)
+
+
+## Data seeding
+Setup your mongoDB database, and run the script:
+
+- `node ./seed.js`
