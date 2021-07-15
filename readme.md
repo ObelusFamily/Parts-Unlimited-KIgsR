@@ -1,6 +1,9 @@
 # Welcome to the Parts Unlimited repo
 
-To start the app use: `yarn start`, it'll start both the backend and the frontend.
+To start the app use: `npm start`, it'll start both the backend and the frontend.
+
+## Dependencies
+- `cuncurrently` - to run the frontend and backend apps in parallel
 
 Please find more info about each part in the relevant Readme file ([frontend](frontend/readme.md) and [backend](backend/README.md)).
 
